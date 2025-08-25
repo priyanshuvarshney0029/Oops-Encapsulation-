@@ -1,1 +1,22 @@
 
+public class Main
+{
+	public static void main(String[] args) {
+// 		System.out.println("Hello World");
+        DemoB obj=new DemoB();
+        obj.sayHello();
+	}
+	
+	static class DemoA {
+	    public void sayHello(){
+	         System.out.println("Hello");
+	    }
+	}
+	static class DemoB extends DemoA{
+	    public void sayHello(){
+	        System.out.println("hii");
+	    }
+	}
+	
+}
+// output will be hii 
